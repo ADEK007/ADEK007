@@ -1,6 +1,6 @@
 - 👋 Hi, I’m (@ADEK007) Md. Hasibul Hassan Mobin 
 - 👀 I’m interested in Programming.
-- 🌱 I’m currently learning Networking in Cisco.
+- 🌱 I have competed Networking at Cisco.
 - 💞️ I’m looking to collaborate on Automation.
 - 📫 How to reach me: mail me on- mdhhmobin@gmail.com 
 
