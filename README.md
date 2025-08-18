@@ -1,3 +1,53 @@
+## NASA Explorer Dashboard
+
+A modern one-page site with NASA-inspired design and a lightweight PHP + SQLite backend for images and articles.
+
+### Quick start (with Docker)
+
+1. Ensure Docker is installed.
+2. From the repo root run:
+
+```bash
+docker compose up -d
+```
+
+3. Open the site at `http://localhost:8080`.
+
+The gallery seeds itself on first request via the API bootstrap.
+
+### Without Docker (native PHP)
+
+You need PHP 8+ with SQLite support. From the repo root:
+
+```bash
+php -S 0.0.0.0:8080 -t public
+```
+
+Visit `http://localhost:8080`.
+
+### API
+
+- GET `/api/images.php?limit=24` → list images
+- POST `/api/images.php` with JSON `{ "url": "https://...", "title": "..." }` → create image
+
+- GET `/api/articles.php?limit=10` → list articles
+- POST `/api/articles.php` with JSON `{ "title": "...", "content": "..." }` → create article
+
+### Project structure
+
+```
+public/
+  index.html
+  styles.css
+  app.js
+  api/
+    bootstrap.php
+    images.php
+    articles.php
+data/                # SQLite DB location (created at runtime)
+docker-compose.yml
+```
+
 - 👋 Hi, I’m (@ADEK007) Md. Hasibul Hassan Mobin 
 - 👀 I’m interested in Programming.
 - 🌱 I have competed Networking at Cisco.

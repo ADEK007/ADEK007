@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>NASA Explorer Dashboard</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="/styles.css" />
+	<link rel="icon" href="https://www.nasa.gov/wp-content/themes/nasa/assets/images/nasa-logo.svg" />
+	<meta name="description" content="A modern one-page dashboard for space exploration with NASA-inspired design, features, and an image gallery backed by a PHP API." />
+</head>
+<body>
+	<header class="site-header">
+		<nav class="top-nav">
+			<a class="brand" href="#hero">
+				<span class="brand-mark"></span>
+				<span class="brand-text">NASA Explorer</span>
+			</a>
+			<ul class="menu">
+				<li><a href="#about">About</a></li>
+				<li><a href="#features">Features</a></li>
+				<li><a href="#gallery">Gallery</a></li>
+				<li><a href="#credits">Credits</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section id="hero" class="hero">
+		<div class="hero-content">
+			<h1 class="hero-title">Explore the Cosmos</h1>
+			<p class="hero-subtitle">A modern dashboard inspired by NASA — missions, exploration, and the beauty of space.</p>
+			<div class="hero-actions">
+				<a class="button primary" href="#gallery">View Gallery</a>
+				<a class="button ghost" href="#features">See Features</a>
+			</div>
+		</div>
+		<div class="hero-overlay"></div>
+	</section>
+
+	<main>
+		<section id="about" class="section">
+			<div class="section-header">
+				<h2>About the Concept</h2>
+				<p>A clean, responsive, one-page experience with a NASA-inspired aesthetic. Built for discovery.</p>
+			</div>
+			<div class="cards three">
+				<article class="card">
+					<img class="illustration" src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?q=80&w=1200&auto=format&fit=crop" alt="Nebula" />
+					<h3>Cosmic Scale</h3>
+					<p>Design language that embraces depth, contrast, and the vastness of space.</p>
+				</article>
+				<article class="card">
+					<img class="illustration" src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?q=80&w=1200&auto=format&fit=crop" alt="Astronaut" />
+					<h3>Human Exploration</h3>
+					<p>Highlighting missions and milestones that push the boundaries of possibility.</p>
+				</article>
+				<article class="card">
+					<img class="illustration" src="https://images.unsplash.com/photo-1445905595283-21f8ae8a33d2?q=80&w=1200&auto=format&fit=crop" alt="Satellite" />
+					<h3>Data & Imagery</h3>
+					<p>Powered by a simple backend so galleries and articles can grow over time.</p>
+				</article>
+			</div>
+		</section>
+
+		<section id="features" class="section">
+			<div class="section-header">
+				<h2>Features</h2>
+				<p>Focused modules that showcase exploration, missions, and images.</p>
+			</div>
+			<div class="cards three">
+				<article class="card feature">
+					<div class="icon">
+						<svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true">
+							<path d="M12 2l3 7 7 3-7 3-3 7-3-7-7-3 7-3 3-7z"/>
+						</svg>
+					</div>
+					<h3>Exploration</h3>
+					<p>Discover curated content and visuals that capture humanity’s journey beyond Earth.</p>
+				</article>
+				<article class="card feature">
+					<div class="icon">
+						<svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true">
+							<path d="M3 11l9-9 9 9-9 9-9-9zm9-5.5L6.5 11H10v6h4v-6h3.5L12 5.5z"/>
+						</svg>
+					</div>
+					<h3>Missions</h3>
+					<p>Feature mission highlights with structured content that can be expanded later.</p>
+				</article>
+				<article class="card feature">
+					<div class="icon">
+						<svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true">
+							<path d="M21 19V5a2 2 0 0 0-2-2H5C3.9 3 3 3.9 3 5v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2zM5 5h14v8l-3-3-4 4-3-3-4 4V5z"/>
+						</svg>
+					</div>
+					<h3>Images</h3>
+					<p>A gallery section driven by a lightweight API for astronomy photography.</p>
+				</article>
+			</div>
+		</section>
+
+		<section id="gallery" class="section">
+			<div class="section-header">
+				<h2>Gallery</h2>
+				<p>Astronomy photos sourced from the backend. Add more over time.</p>
+				<div class="section-actions">
+					<button id="refresh-gallery" class="button small">Refresh</button>
+				</div>
+			</div>
+			<div id="gallery-grid" class="gallery-grid" aria-live="polite"></div>
+			<div id="gallery-status" class="status"></div>
+		</section>
+
+		<section id="credits" class="section">
+			<div class="section-header">
+				<h2>Thank You & Credits</h2>
+				<p>Inspired by NASA’s pioneering spirit. Image credits to NASA and the space photography community.</p>
+			</div>
+			<ul class="credits-list">
+				<li>NASA Branding: <a href="https://www.nasa.gov/" target="_blank" rel="noreferrer noopener">nasa.gov</a></li>
+				<li>Sample Images: <a href="https://images.nasa.gov/" target="_blank" rel="noreferrer noopener">NASA Image and Video Library</a> & Unsplash Space Collection</li>
+				<li>Built with HTML, CSS, JavaScript, and a PHP (SQLite) backend</li>
+			</ul>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<p>Made with passion for space. © <span id="year"></span></p>
+	</footer>
+
+	<script src="/app.js"></script>
+</body>
+</html>
+
