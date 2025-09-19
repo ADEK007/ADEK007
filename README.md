@@ -8,7 +8,7 @@
 
 I’m a passionate programmer and aspiring circuit designer, currently working as an Embedded Engineer at Drishti with past experience as a Junior Researcher at Research Expert. I enjoy building projects at the intersection of hardware and software, blending creativity with problem-solving.
 
-🔧 What I Do
+🔧 What I Do:
 
 Programming in C, Python, JavaScript, and MicroPython
 
@@ -18,13 +18,15 @@ Exploring IC design, low-level programming, and power management
 
 Experimenting with IoT projects like an ESP32-based smart coffee/tea vending machine
 
-🌱 What I’m Learning
+🌱 What I’m Learning:
 I’m actively deepening my knowledge in circuit design and the embedded software lifecycle, aiming to contribute to research and future innovations in IC mask design.
 
-🤝 Let’s Connect
+🤝 Let’s Connect:
+
 I’m always open to collaboration on exciting projects, especially in embedded systems, IoT, or circuit design.
 
 ⚡ Fun Fact
+
 Did you know that a circuit can run on both voltage and current? It’s one of the most fascinating aspects of electrical engineering!
 
 
