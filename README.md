@@ -4,8 +4,27 @@
 - 💞️ I’m looking to collaborate on Automation.
 - 📫 How to reach me: mail me on- mdhhmobin@gmail.com
 
-# 💫 About Me:
-I'm a passionate programmer and aspiring circuit designer currently interning at Research Expert. I'm always eager to learn new things and collaborate on exciting projects.<br><br>Looking to contribute to an e-commerce site, I'm skilled in problem-solving and have a strong foundation in programming languages. I'm also actively expanding my knowledge in circuit design, exploring the intersection of hardware and software.<br><br>Feel free to ask me anything about programming, circuit design, or my experiences. I'm always happy to share my insights and learn from others.<br><br>Fun fact: Did you know that a circuit can run on both voltage and current? It's a fascinating aspect of electrical engineering!
+**💫 About Me**
+I’m a passionate programmer and aspiring circuit designer, currently working as an Embedded Engineer at Drishti with past experience as a Junior Researcher at Research Expert. I enjoy building projects at the intersection of hardware and software, blending creativity with problem-solving.
+
+🔧 What I Do
+
+Programming in C, Python, JavaScript, and MicroPython
+
+Designing and implementing embedded systems
+
+Exploring IC design, low-level programming, and power management
+
+Experimenting with IoT projects like an ESP32-based smart coffee/tea vending machine
+
+🌱 What I’m Learning
+I’m actively deepening my knowledge in circuit design and the embedded software lifecycle, aiming to contribute to research and future innovations in IC mask design.
+
+🤝 Let’s Connect
+I’m always open to collaboration on exciting projects, especially in embedded systems, IoT, or circuit design.
+
+⚡ Fun Fact
+Did you know that a circuit can run on both voltage and current? It’s one of the most fascinating aspects of electrical engineering!
 
 
 ## 🌐 Socials:
